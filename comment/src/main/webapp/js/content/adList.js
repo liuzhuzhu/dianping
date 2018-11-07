@@ -20,3 +20,11 @@ function modifyInit(id) {
 	$("#mainForm").attr("action",$("#basePath").val() + "/ad/modifyInit");
 	$("#mainForm").submit();
 }
+
+/**
+ * 报表打印
+ */
+function downExel() {
+    window.location.href=$("#basePath").val() + "/ad/downExcel";
+
+}
