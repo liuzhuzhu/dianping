@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="comment:war">
+    <output-path>$PROJECT_DIR$/comment/target</output-path>
+    <root id="archive" name="comment.war">
+      <element id="artifact" artifact-name="comment:war exploded" />
+    </root>
+  </artifact>
+</component>
