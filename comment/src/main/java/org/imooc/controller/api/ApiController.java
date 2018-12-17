@@ -47,7 +47,7 @@ public class ApiController {
 	public List<AdDto> homead() {
 		AdDto adDto = new AdDto();
 		adDto.getPage().setPageNumber(adNumber);
-		return adService.searchByPage(adDto);
+		return null;
 	}
 
 	/**
@@ -56,7 +56,7 @@ public class ApiController {
 	@RequestMapping(value = "/homelist/{city}/{page.currentPage}", method = RequestMethod.GET)
 	public BusinessListDto homelist(BusinessDto businessDto) {
 		businessDto.getPage().setPageNumber(businessHomeNumber);
-		return businessService.searchByPageForApi(businessDto);
+		return null;
 	}
 
 	/**
@@ -65,7 +65,7 @@ public class ApiController {
 	@RequestMapping(value = "/search/{page.currentPage}/{city}/{category}/{keyword}", method = RequestMethod.GET)
 	public BusinessListDto searchByKeyword(BusinessDto businessDto) {
 		businessDto.getPage().setPageNumber(businessSearchNumber);
-		return businessService.searchByPageForApi(businessDto);
+		return null;
 	}
 
 	/**
@@ -74,7 +74,7 @@ public class ApiController {
 	@RequestMapping(value = "/search/{page.currentPage}/{city}/{category}", method = RequestMethod.GET)
 	public BusinessListDto search(BusinessDto businessDto) {
 		businessDto.getPage().setPageNumber(businessSearchNumber);
-		return businessService.searchByPageForApi(businessDto);
+		return null;
 	}
 
 	/**
@@ -82,7 +82,7 @@ public class ApiController {
 	 */
 	@RequestMapping(value = "/detail/info/{id}", method = RequestMethod.GET)
 	public BusinessDto detail(@PathVariable("id") Long id) {
-		return businessService.getById(id);
+		return null;
 	}
 
 	/**

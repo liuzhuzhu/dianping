@@ -4,16 +4,16 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8081/comment/css/all.css">
-		<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8081/comment/css/pop.css">
-		<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8081/comment/css/main.css">
-		<script type="text/javascript" src="http://127.0.0.1:8081/comment/js/common/jquery-1.8.3.js"></script>
-		<script type="text/javascript" src="http://127.0.0.1:8081/comment/js/content/adList.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8080/comment/css/all.css">
+		<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8080/comment/css/pop.css">
+		<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8080/comment/css/main.css">
+		<script type="text/javascript" src="http://127.0.0.1:8080/comment/js/common/jquery-1.8.3.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8080/comment/js/content/adList.js"></script>
 	</head>
 	<body style="background: #e1e9eb;">
-		<form action="http://127.0.0.1:8081/comment/ad/search" id="mainForm" method="post">
+		<form action="http://127.0.0.1:8080/comment/ad/search" id="mainForm" method="post">
 			<input id="id" name="id" type="hidden">
-			<input id="basePath" value="http://127.0.0.1:8081/comment" type="hidden">
+			<input id="basePath" value="http://127.0.0.1:8080/comment" type="hidden">
 			<input name="page.currentPage" id="currentPage" value="1" type="hidden">
 			<div class="right">
 				<div class="current">当前位置：<a href="#">内容管理</a> &gt; 评论查询</div>

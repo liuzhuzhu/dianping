@@ -50,7 +50,7 @@ public class BusinessTask {
 		map.put("endTime", endTime);
 		// 按这样起始时间-结束时间同步：商户对应的【星星总数】、【评论总次数】
 		// 如果起始时间为NULL，那说明是第一次同步，需要将历史数据全步同步，一直同步到当前系统时间为止。
-		businessDao.updateStar(map);
+		//businessDao.updateStar(map);
 		// 将当前这个系统时间更新到系统参数表中，做为下次同步的起始时间
 		SysParam sysParamForUpdate = new SysParam();
 		sysParamForUpdate.setParamKey(SysParamKeyConst.LAST_SYNC_STAR_TIME);
