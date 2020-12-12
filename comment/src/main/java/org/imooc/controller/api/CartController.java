@@ -8,4 +8,7 @@ public class CartController {
     public void addCat(){
         System.out.println("team1 开发 购物车 第一天");
     }
+    public void delCat(){
+        System.out.println("team1 开发 购物车 第二天");
+    }
 }
